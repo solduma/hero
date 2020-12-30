@@ -1,4 +1,3 @@
-<!doctype html>
 <html lang="en-us">
   <head>
     <meta charset="utf-8">
@@ -20,7 +19,7 @@
       var dosbox = new Dosbox({
         id: "dosbox",
         onload: function (dosbox) {
-          dosbox.run("https://js-dos.com/cdn/digger.zip", "./DIGGER.COM");
+          dosbox.run("https://github.com/solduma/hero/blob/main/src/game/hero.zip", "./HERO.COM");
         },
         onrun: function (dosbox, app) {
           console.log("App '" + app + "' is runned");
