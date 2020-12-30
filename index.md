@@ -25,7 +25,7 @@
       cycles: 1000,
       autolock: true,
     }).ready(function (fs, main) {
-      fs.extract("https://localhost/src/hero.zip?raw=true").then(function () {
+      fs.extract("https://solduma.github.io/hero/src/hero.zip").then(function () {
         console.log('sdf');
         main(["-c", "cd hero", "-c", "HERO.COM"]).then(function (ci) {
           window.ci = ci;
