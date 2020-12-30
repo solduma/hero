@@ -1,4 +1,15 @@
-  <div id="dosbox"></div>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>js-dos api</title>
+    <style type="text/css">
+      .dosbox-container { width: 1024px; height: 768px; }
+      .dosbox-container > .dosbox-overlay { background: url(https://js-dos.com/cdn/digger.png); }
+    </style>
+  </head>
+  <body>
+    <div id="dosbox"></div>
     <br/>
     <button onclick="dosbox.requestFullScreen();">Make fullscreen</button>
     
@@ -14,3 +25,6 @@
         }
       });
     </script>
+  </body>
+</html>
+
