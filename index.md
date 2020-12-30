@@ -1,5 +1,4 @@
-  <body>
-    <div id="dosbox"></div>
+  <div id="dosbox"></div>
     <br/>
     <button onclick="dosbox.requestFullScreen();">Make fullscreen</button>
     
@@ -8,7 +7,7 @@
       var dosbox = new Dosbox({
         id: "dosbox",
         onload: function (dosbox) {
-          dosbox.run("https://github.com/solduma/hero/blob/main/src/hero.zip", "./HERO.COM");
+          dosbox.run("https://github.com/solduma/hero/raw/main/src/hero.zip", "./HERO.COM");
         },
         onrun: function (dosbox, app) {
           console.log("App '" + app + "' is runned");
